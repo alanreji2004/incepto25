@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  padding-bottom: 0px;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+.links {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;/* #bafad1 */
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.links a:hover {
+  color: #01cf96;
+}
+
+@media (max-width: 768px) {
+  .links {
+    gap: 1.5rem;
+    font-size: 0.95rem;
+  }
+}
